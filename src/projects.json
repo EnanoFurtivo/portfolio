@@ -1,0 +1,367 @@
+[
+  {
+    "title": "EverSafe ERP",
+    "slug": "eversafe-erp",
+    "type": "professional",
+    "description": "Sistema de gestión y automatización para eficientizar los procesos de venta eCommerce en EverSafe SRL con integración directa a Mercado Libre y notificaciones en vivo a través de Telegram y conexión websockets.",
+    "summary": "Sistema de gestión y automatización para eficientizar los procesos de venta eCommerce en EverSafe SRL",
+    "imageUrls": [
+      "https://i.imgur.com/KJoFPRj.png",
+      "https://i.imgur.com/FhOAWB3.png",
+      "https://i.imgur.com/YpFVLIr.png",
+      "https://i.imgur.com/TLm3bUP.png",
+      "https://i.imgur.com/DndHWXg.png",
+      "https://i.imgur.com/yHXKC57.png",
+      "https://i.imgur.com/OSaRsKv.png",
+      "https://i.imgur.com/Omls1db.png",
+      "https://i.imgur.com/sOcT4WE.png",
+      "https://i.imgur.com/oiE69oX.png",
+      "https://i.imgur.com/TlvIdUR.png",
+      "https://i.imgur.com/hfSIBXz.png"
+    ],
+    "features": [
+      "Módulo de gestión de productos y proveedores",
+      "Módulo de validación de margen y ganancia de ventas realizadas",
+      "Módulo de notificación de emergencias y eventos en tiempo real como ventas con margen fuera de rango o stock bajo de una publicación",
+      "Módulo de actualización de precios de forma masiva en Mercado Libre con validación de margen y ganancia para evitar pérdidas debido a errores humanos",
+      "Módulo de cotización de productos y servicios para estimar ventas personalizadas",
+      "Módulo de administración de usuarios y configuraciones",
+      "Módulo de envío de mensajes automáticos a través de mensajería de Mercado Libre para las publicaciones configuradas",
+      "Actualización diaria de cotizaciones de monedas extranjeras"
+    ],
+    "technologies": [
+      "Laravel",
+      "Vite",
+      "React",
+      "TypeScript",
+      "Redux",
+      "RTK Query",
+      "Tailwind CSS",
+      "Docker",
+      "Laravel Echo",
+      "Portainer",
+      "Telegram Bot API",
+      "Mercado Libre API"
+    ],
+    "challenges": [
+      {
+        "problem": "Necesidad de gestionar y automatizar los procesos de venta eCommerce",
+        "solution": "Desarrollo de un sistema ERP a medida utilizando Laravel para el backend y Vite, React, TypeScript, Redux, Tailwind CSS para el frontend"
+      },
+      {
+        "problem": "Reducción de pérdidas por errores humanos",
+        "solution": "Implementación de un sistema de control estricto de las ganancias y márgenes de la empresa, con notificaciones en tiempo real de eventos críticos"
+      },
+      {
+        "problem": "Integración con plataformas externas",
+        "solution": "Integración de recursos API de Mercado Libre y sistema de notificaciones a través de la API para bots de Telegram"
+      }
+    ],
+    "githubUrl": "",
+    "githubIsPrivate": true,
+    "siteUrl": ""
+  },
+  {
+    "title": "Fan Monitoring",
+    "slug": "fan-monitoring",
+    "type": "professional",
+    "description": "Sistema de monitoreo y análisis mediante inteligencia artificial de llamadas de call centers. Desarrollé una aplicación SPA con React, Vite, Tailwind CSS, TypeScript, Redux y RTK Query, mejorando significativamente la experiencia del usuario. Además, optimicé el backend con Python, FastAPI y SQLAlchemy, reduciendo el tiempo de respuesta de los endpoints en un 40% respecto a una versión anterior basada en PHP.",
+    "summary": "Aplicación SPA para el monitoreo y análisis de llamadas de call centers con AI, optimizando la eficiencia del backend en un 40%.",
+    "imageUrls": [],
+    "features": [
+      "Interfaz de usuario amigable y personalizada para la gestión y análisis de llamadas",
+      "Backend optimizado con Python, FastAPI y SQLAlchemy para una respuesta más rápida",
+      "Implementación de inteligencia artificial para el análisis de llamadas",
+      "Panel de control con gráficos dinámicos para la visualización de datos y métricas de rendimiento",
+      "Alertas automáticas y notificaciones para eventos críticos de las llamadas",
+      "Metodología ágil con iteraciones constantes para adaptar el sistema a las necesidades del cliente",
+      "Uso de tecnología serverless de Amazon para realizar el Speech to Text"
+    ],
+    "technologies": ["React", "Vite", "TypeScript", "Redux", "RTK Query", "Tailwind CSS", "Python", "FastAPI", "SQLAlchemy", "Amazon Serverless"],
+    "challenges": [
+      {
+        "problem": "La necesidad de mejorar la experiencia del usuario con un frontend más dinámico y moderno",
+        "solution": "Desarrollo de una SPA con React, Vite, Tailwind CSS, TypeScript, Redux y RTK Query"
+      },
+      {
+        "problem": "Optimización del backend para mejorar el tiempo de respuesta",
+        "solution": "Migración del backend de PHP a Python utilizando FastAPI y SQLAlchemy, logrando una mejora del 40% en el tiempo de respuesta de los endpoints"
+      },
+      {
+        "problem": "Implementación de inteligencia artificial para el análisis de llamadas de call centers",
+        "solution": "Integración de algoritmos de AI para analizar y extraer métricas de rendimiento de las llamadas"
+      },
+      {
+        "problem": "Necesidad de convertir el audio de las llamadas a texto de manera eficiente",
+        "solution": "Uso de tecnología serverless de Amazon para realizar el Speech to Text"
+      }
+    ],
+    "githubUrl": "",
+    "githubIsPrivate": true,
+    "siteUrl": ""
+  },
+  {
+    "title": "Cambio Bot",
+    "slug": "cambio-bot",
+    "type": "professional",
+    "description": "Bot de Telegram destinado a la automatización de cambio de divisas, con múltiples menús y funcionalidades específicas que permiten minimizar la interacción del operador con los clientes, reduciendo costos y aumentando la satisfacción del cliente gracias a la rápida respuesta y disponibilidad del bot.",
+    "summary": "Bot de Telegram para la automatización de cambio de divisas, reduciendo costos y aumentando la satisfacción del cliente.",
+    "imageUrls": [],
+    "features": [
+      "Múltiples menús interactivos para facilitar la navegación del usuario",
+      "Automatización del proceso de cambio de divisas sin intervención manual",
+      "Actualización en tiempo real de tasas de cambio utilizando Google Spreadsheets como base de datos",
+      "Respuesta inmediata a consultas y solicitudes de los clientes",
+      "Configuración flexible y editable de datos de divisas por parte del operador mediante Google Spreadsheets",
+      "Sistema de notificaciones automáticas al operador ante eventos críticos"
+    ],
+    "technologies": ["Node.js", "Telegram Bot API", "Google Spreadsheets"],
+    "challenges": [
+      {
+        "problem": "Necesidad de automatizar el proceso de cambio de divisas y reducir la interacción del operador con los clientes",
+        "solution": "Desarrollo de un bot de Telegram con múltiples menús y funcionalidades específicas que permiten gestionar automáticamente las transacciones de cambio de divisas"
+      },
+      {
+        "problem": "Mantener una base de datos editable y accesible para el operador",
+        "solution": "Uso de Google Spreadsheets como base de datos para permitir una actualización sencilla y rápida por parte del operador, evitando la necesidad de desarrollar una GUI adicional"
+      },
+      {
+        "problem": "Optimizar los costos operativos y mejorar la satisfacción del cliente",
+        "solution": "Implementación de un bot que minimiza la intervención humana, reduce errores y garantiza una respuesta rápida a los clientes, mejorando la eficiencia operativa y la experiencia del usuario"
+      }
+    ],
+    "githubUrl": "",
+    "githubIsPrivate": true,
+    "siteUrl": ""
+  },
+  {
+    "title": "Check Precarias",
+    "slug": "check-precarias",
+    "type": "freelance",
+    "description": "Script en Python que verifica automáticamente la validez de los trámites de documentos de identificación precarios emitidos a ciudadanos extranjeros, utilizando como fuente de datos una hoja de Google Sheets. Automatiza la tarea repetitiva diaria, incrementando sustancialmente la productividad del cliente.",
+    "summary": "Automatización de la verificación de trámites de identificación para ciudadanos extranjeros mediante un script en Python.",
+    "imageUrls": [],
+    "features": [
+      "Verificación automática de documentos de identificación precarios",
+      "Integración con Google Sheets como fuente de datos",
+      "Interacción con un formulario POST gubernamental mediante técnicas de scraping",
+      "Automatización de tareas repetitivas para mejorar la productividad"
+    ],
+    "technologies": ["Python", "Google Sheets API", "HTTP Requests", "Web Scraping", "Automatización con scripts"],
+    "challenges": [
+      {
+        "problem": "Necesidad de verificar diariamente la validez de trámites de identificación precarios",
+        "solution": "Desarrollo de un script en Python que realiza la verificación automática utilizando datos de Google Sheets y un formulario POST gubernamental"
+      },
+      {
+        "problem": "Automatización de tareas repetitivas",
+        "solution": "Implementación de un script que realiza la tarea repetitiva de verificación de documentos, reduciendo significativamente el tiempo invertido en la tarea manual"
+      },
+      {
+        "problem": "Interacción con fuentes de datos externas",
+        "solution": "Utilización de la API de Google Sheets para extraer datos y técnicas de scraping para interactuar con un formulario gubernamental"
+      }
+    ],
+    "githubUrl": "",
+    "githubIsPrivate": true,
+    "siteUrl": ""
+  },
+  {
+    "title": "Infracciones",
+    "slug": "infracciones",
+    "type": "university",
+    "description": "Sistema web de administración de infracciones viales, desarrollado como una prueba de concepto para aplicar el patrón de diseño MVC, DAO y DTO.",
+    "summary": "Sistema web de administración de infracciones viales.",
+    "imageUrls": [],
+    "features": [
+      "Gestión de infracciones viales",
+      "Implementación del patrón MVC",
+      "Uso de DAO y DTO para la separación de la lógica de negocio",
+      "Interfaz web para administrar infracciones"
+    ],
+    "technologies": ["C#", "ASP.NET", "MS Access"],
+    "challenges": [
+      {
+        "problem": "Necesidad de aplicar patrones de diseño en un proyecto real",
+        "solution": "Desarrollo de un sistema web utilizando C#, ASP.NET y MS Access para administrar infracciones viales"
+      }
+    ],
+    "githubUrl": "https://github.com/EnanoFurtivo/Infracciones",
+    "githubIsPrivate": false,
+    "siteUrl": ""
+  },
+  {
+    "title": "Tienda Online",
+    "slug": "tienda-online",
+    "type": "university",
+    "description": "Servidor web para la aplicación Tienda Online, utilizado para demostrar habilidades en el desarrollo de API's RESTful y la separación de capas de aplicación en un entorno web.",
+    "summary": "Servidor web para Tienda Online con API RESTful y administración básica de órdenes.",
+    "imageUrls": [],
+    "features": [
+      "Desarrollo de API RESTful para autenticación de usuarios",
+      "Transferencia de modelos 3D al cliente de Unity",
+      "GUI separada para la administración de órdenes",
+      "Separación clara de capas de aplicación (MVC, API y ORM)"
+    ],
+    "technologies": ["PHP", "HTML", "CSS", "MySQL"],
+    "challenges": [
+      {
+        "problem": "Demostrar la separación de capas en una aplicación web",
+        "solution": "Implementación de una aplicación web con capas claramente separadas (modelo, vista, controladores, puntos de entrada de API y ORM propio)"
+      },
+      {
+        "problem": "Enviar modelos en tiempo real a un cliente de Unity",
+        "solution": "Desarrollo de una API RESTful para la transferencia de modelos 3D a un cliente de Unity"
+      }
+    ],
+    "githubUrl": "https://github.com/EnanoFurtivo/TiendaOnline",
+    "githubIsPrivate": false,
+    "siteUrl": ""
+  },
+  {
+    "title": "Tienda Online Unity",
+    "slug": "tienda-online-unity",
+    "type": "university",
+    "description": "Aplicación de realidad virtual que permite a los usuarios visitar una tienda online en un entorno virtual, conectándose con una API REST para autenticación y transferencia de modelos 3D.",
+    "summary": "Tienda online en realidad virtual para reducir costos de devolución y mejorar accesibilidad.",
+    "imageUrls": [],
+    "features": [
+      "Experiencia de tienda online en realidad virtual",
+      "Conexión con API REST para autenticación y transferencia de modelos 3D",
+      "Accesibilidad mejorada para personas con discapacidades"
+    ],
+    "technologies": ["Unity", "C#"],
+    "challenges": [
+      {
+        "problem": "Reducir costos de devolución por insatisfacción de clientes",
+        "solution": "Desarrollo de una tienda online en realidad virtual para mejorar la toma de decisiones de compra"
+      },
+      {
+        "problem": "Accesibilidad para personas con discapacidades",
+        "solution": "Implementación de una interfaz de tienda online accesible a través de realidad virtual"
+      }
+    ],
+    "githubUrl": "https://github.com/EnanoFurtivo/TiendaOnlineUnity",
+    "githubIsPrivate": false,
+    "siteUrl": ""
+  },
+  {
+    "title": "Club Deportivo",
+    "slug": "club-deportivo",
+    "type": "university",
+    "description": "Aplicación de administración para un club deportivo desarrollada como prueba de concepto de un ERP comercial, utilizando el patrón de diseño MVC, DAO y DTO.",
+    "summary": "Aplicación de administración para un club deportivo.",
+    "imageUrls": [],
+    "features": ["Gestión de miembros y actividades del club deportivo", "Implementación del patrón MVC", "Uso de DAO y DTO para la gestión de datos"],
+    "technologies": ["C#", "ASP.NET", "MS Access"],
+    "challenges": [
+      {
+        "problem": "Demostrar la implementación de un ERP comercial",
+        "solution": "Desarrollo de una aplicación de administración de club deportivo utilizando el patrón MVC, DAO y DTO"
+      }
+    ],
+    "githubUrl": "https://github.com/EnanoFurtivo/ClubDeportivo",
+    "githubIsPrivate": false,
+    "siteUrl": ""
+  },
+  {
+    "title": "Game Of Life",
+    "slug": "game-of-life",
+    "type": "university",
+    "description": "El juego de la vida como aplicación de escritorio en C# con modificaciones significativas en la lógica y la interfaz, incluyendo el estado inicial del tablero y estadísticas de vida/muerte.",
+    "summary": "Simulación del juego de la vida con estadísticas avanzadas y configuración del estado inicial.",
+    "imageUrls": [],
+    "features": [
+      "Simulación del juego de la vida con interfaz gráfica",
+      "Configuración del estado inicial del tablero",
+      "Estadísticas en tiempo real de nacimientos, muertes y celdas vivas"
+    ],
+    "technologies": ["C#"],
+    "challenges": [
+      {
+        "problem": "Extender la funcionalidad de un proyecto existente",
+        "solution": "Modificación del juego de la vida con nuevas características de simulación y estadísticas avanzadas"
+      }
+    ],
+    "githubUrl": "https://github.com/EnanoFurtivo/GameOfLife",
+    "githubIsPrivate": false,
+    "siteUrl": ""
+  },
+  {
+    "title": "Algoritmo Banquero",
+    "slug": "algo-banquero",
+    "type": "university",
+    "description": "Aplicación de escritorio que simula el Algoritmo del Banquero de Sistemas Operativos para la planificación de recursos, evitando interbloqueos.",
+    "summary": "Simulador del Algoritmo del Banquero para la planificación de recursos en sistemas operativos.",
+    "imageUrls": [],
+    "features": ["Carga de vector de recursos disponibles", "Carga de matrices 'max' y 'asignado'", "Simulación del algoritmo del banquero"],
+    "technologies": ["C#"],
+    "challenges": [
+      {
+        "problem": "Simular la planificación de recursos en sistemas operativos",
+        "solution": "Implementación de una aplicación en C# que permite la carga de matrices y la simulación del Algoritmo del Banquero"
+      }
+    ],
+    "githubUrl": "https://github.com/EnanoFurtivo/algobanquero",
+    "githubIsPrivate": false,
+    "siteUrl": ""
+  },
+  {
+    "title": "Osu Mp3 Extractor",
+    "slug": "osu-mp3-extractor",
+    "type": "personal",
+    "description": "Aplicación que permite a los usuarios extraer y escuchar música del juego de ritmo osu!, exportando colecciones a carpetas con archivos mp3 y embelleciendo los metadatos y carátulas para mejorar la experiencia de escucha.",
+    "summary": "Aplicación para extraer y mejorar música del juego osu! para una experiencia de escucha optimizada.",
+    "imageUrls": [],
+    "features": [
+      "Interfaz sencilla para leer la base de datos interna del juego osu!",
+      "Exportación de colecciones a carpetas con archivos mp3",
+      "Modificación y embellecimiento de etiquetas mp3 y carátulas de álbum",
+      "Opción de embeber las carátulas originales del juego en los archivos mp3"
+    ],
+    "technologies": ["C#", "TagLib"],
+    "challenges": [
+      {
+        "problem": "Necesidad de escuchar música del juego osu! fuera del entorno del juego",
+        "solution": "Desarrollo de una herramienta que extrae y organiza archivos mp3 de las colecciones del juego para reproducirlos en cualquier reproductor"
+      },
+      {
+        "problem": "Metadatos y carátulas de álbum incorrectos o inexistentes",
+        "solution": "Automatización de la edición de etiquetas mp3 y carátulas para mejorar la experiencia del usuario"
+      }
+    ],
+    "githubUrl": "https://github.com/EnanoFurtivo/Osu-Mp3-Extractor",
+    "githubIsPrivate": false,
+    "siteUrl": "https://osu.ppy.sh/community/forums/topics/759672"
+  },
+  {
+    "title": "Portfolio",
+    "slug": "portfolio",
+    "type": "personal",
+    "description": "Portfolio personal desarrollado en React, estilizado con shadcn y Tailwind CSS. Este proyecto permite exponer mis habilidades como desarrollador de software a través de una interfaz moderna y responsiva.",
+    "summary": "Portfolio personal para mostrar habilidades como desarrollador de software.",
+    "imageUrls": [],
+    "features": [
+      "Diseño responsivo y moderno",
+      "Uso de componentes UI personalizados con shadcn",
+      "Estilos personalizados con Tailwind CSS",
+      "Integración con proyectos de GitHub para mostrar repositorios y contribuciones",
+      "Secciones sobre habilidades, experiencia y contacto",
+      "Despliegue gratuito con Github Pages"
+    ],
+    "technologies": ["React", "shadcn", "Tailwind CSS", "TypeScript"],
+    "challenges": [
+      {
+        "problem": "Necesidad de una plataforma para mostrar habilidades y proyectos personales",
+        "solution": "Desarrollo de un portfolio personal en React, estilizado con Tailwind CSS y componentes personalizados"
+      },
+      {
+        "problem": "Presentación efectiva y atractiva de habilidades técnicas",
+        "solution": "Uso de shadcn y Tailwind CSS para crear un diseño visualmente atractivo y altamente funcional"
+      }
+    ],
+    "githubUrl": "https://github.com/EnanoFurtivo/portfolio",
+    "githubIsPrivate": false,
+    "siteUrl": "https://enanofurtivo.github.io/portfolio"
+  }
+]
