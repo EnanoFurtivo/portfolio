@@ -1,14 +1,6 @@
-import React from "react";
-import {
-  type CarouselApi,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-  Carousel as UiCarousel,
-} from "./ui/carousel";
-import { Card, CardContent } from "./ui/card";
-import Autoplay from "embla-carousel-autoplay";
+import React from 'react';
+import { type CarouselApi, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, Carousel as UiCarousel } from './ui/carousel';
+import Autoplay from 'embla-carousel-autoplay';
 
 interface Props {
   images: string[];
@@ -28,7 +20,7 @@ export const Carousel: React.FC<Props> = ({ images, noButtons = false }) => {
     setCount(api.scrollSnapList().length);
     setCurrent(api.selectedScrollSnap() + 1);
 
-    api.on("select", () => {
+    api.on('select', () => {
       setCurrent(api.selectedScrollSnap() + 1);
     });
   }, [api]);
@@ -40,12 +32,12 @@ export const Carousel: React.FC<Props> = ({ images, noButtons = false }) => {
         className="w-full  max-w-7xl"
         plugins={[
           Autoplay({
-            delay: 3000,
-          }),
+            delay: 3000
+          })
         ]}
         opts={{
-          align: "start",
-          loop: true,
+          align: 'start',
+          loop: true
         }}
       >
         <CarouselContent>
@@ -74,37 +66,3 @@ export const Carousel: React.FC<Props> = ({ images, noButtons = false }) => {
     </div>
   );
 };
-
-/* <Carousel
-                  setApi={setApi}
-                   className="max-w-full relative"
-                   plugins={[
-                     Autoplay({
-                       delay: 3000,
-                    }),
-                   ]}
-                   opts={{
-                     align: "start",
-                     loop: true,
-                   }}
-                >
-                  <CarouselContent>
-                    {project.imageUrls.length > 0
-                      ? project.imageUrls.map((url, index) => (
-                          <CarouselItem key={url} className="relative">
-                            {index + 1}
-                             <div
-                              className="px-10"
-                              style={{ pointerEvents: "none" }}
-                            >
-                              <img src={url} alt={`${project.title} Preview`} />
-                            </div>
-                          </CarouselItem>
-                        ))
-                      : null}
-                  </CarouselContent> 
-                  <CarouselPrevious
-                  />
-                  <CarouselNext
-                  />
-                </Carousel>*/

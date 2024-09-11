@@ -1,5 +1,5 @@
-import { Outlet } from "react-router-dom";
-import { Header, Footer, Contact } from "@/layout";
+import { Outlet } from 'react-router-dom';
+import { Header, Footer, Contact } from '@/layout';
 
 export const MainLayout: React.FC = () => {
   return (
