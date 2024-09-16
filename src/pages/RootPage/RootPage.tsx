@@ -7,7 +7,6 @@ import { GithubOutlined, LinkedinOutlined, MailOutlined, MoonOutlined, SunOutlin
 import urls from '@/data/urls.json';
 import { selectTheme, toggleTheme } from '@/redux/local';
 import { useAppDispatch, useAppSelector } from '@/redux/hooks';
-import { TimerSection } from '@/pages/RootPage/TimerSection';
 
 export const RootPage: React.FC = () => {
   const theme = useAppSelector(selectTheme);
@@ -42,11 +41,6 @@ export const RootPage: React.FC = () => {
           tecnologías son Laravel y React, pero también tengo experiencia en diversas tecnologías como Python, C, C#, Java, MySQL, MongoDB, entre otras.
           Apasionado desde muy pequeño por la tecnología y siempre en constante aprendizaje para mejorar mis habilidades como desarrollador.
         </p>
-      </section>
-
-      <section id="timer" className="mb-24">
-        <h2 className="text-3xl font-bold mb-4">Desarrolador hace</h2>
-        <TimerSection />
       </section>
 
       {Object.keys(sections).map((type) => {
