@@ -1,11 +1,11 @@
-import { Button } from '@/components/ui/button';
-import { ExternalLinkIcon } from 'lucide-react';
-import projects from '@/projects.json';
-import { Link, useParams } from 'react-router-dom';
+import projects from '@/data/projects.json';
+import { useParams } from 'react-router-dom';
 import { NotFoundPage } from './NotFoundPage';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Project } from '@/types';
 import { GithubButton } from '@/components';
+import { LinkOutlined } from '@ant-design/icons';
+import { Button } from 'antd';
 
 export const ProjectPage: React.FC = () => {
   const slug = useParams<{ projectSlug: string }>().projectSlug;
@@ -30,11 +30,8 @@ export const ProjectPage: React.FC = () => {
         <div className="flex space-x-4">
           <GithubButton project={project} />
           {project.siteUrl && (
-            <Button variant="outline" asChild>
-              <Link to={project.siteUrl}>
-                <ExternalLinkIcon className="mr-2 h-4 w-4" />
-                Visitar sitio
-              </Link>
+            <Button icon={<LinkOutlined />} href={project.githubUrl}>
+              Visitar Sitio
             </Button>
           )}
         </div>

@@ -5,6 +5,7 @@
     "type": "professional",
     "description": "Sistema de gestión y automatización para eficientizar los procesos de venta eCommerce en EverSafe SRL con integración directa a Mercado Libre y notificaciones en vivo a través de Telegram y conexión websockets.",
     "summary": "Sistema de gestión y automatización para eficientizar los procesos de venta eCommerce en EverSafe SRL",
+    "avatarUrl": "https://i.imgur.com/2OS6rxe.png",
     "imageUrls": [
       "https://i.imgur.com/KJoFPRj.png",
       "https://i.imgur.com/FhOAWB3.png",
@@ -67,6 +68,7 @@
     "type": "professional",
     "description": "Sistema de monitoreo y análisis mediante inteligencia artificial de llamadas de call centers. Desarrollé una aplicación SPA con React, Vite, Tailwind CSS, TypeScript, Redux y RTK Query, mejorando significativamente la experiencia del usuario. Además, optimicé el backend con Python, FastAPI y SQLAlchemy, reduciendo el tiempo de respuesta de los endpoints en un 40% respecto a una versión anterior basada en PHP.",
     "summary": "Aplicación SPA para el monitoreo y análisis de llamadas de call centers con AI, optimizando la eficiencia del backend en un 40%.",
+    "avatarUrl": "",
     "imageUrls": [],
     "features": [
       "Interfaz de usuario amigable y personalizada para la gestión y análisis de llamadas",
@@ -106,6 +108,7 @@
     "type": "professional",
     "description": "Bot de Telegram destinado a la automatización de cambio de divisas, con múltiples menús y funcionalidades específicas que permiten minimizar la interacción del operador con los clientes, reduciendo costos y aumentando la satisfacción del cliente gracias a la rápida respuesta y disponibilidad del bot.",
     "summary": "Bot de Telegram para la automatización de cambio de divisas, reduciendo costos y aumentando la satisfacción del cliente.",
+    "avatarUrl": "",
     "imageUrls": [],
     "features": [
       "Múltiples menús interactivos para facilitar la navegación del usuario",
@@ -140,6 +143,7 @@
     "type": "freelance",
     "description": "Script en Python que verifica automáticamente la validez de los trámites de documentos de identificación precarios emitidos a ciudadanos extranjeros, utilizando como fuente de datos una hoja de Google Sheets. Automatiza la tarea repetitiva diaria, incrementando sustancialmente la productividad del cliente.",
     "summary": "Automatización de la verificación de trámites de identificación para ciudadanos extranjeros mediante un script en Python.",
+    "avatarUrl": "",
     "imageUrls": [],
     "features": [
       "Verificación automática de documentos de identificación precarios",
@@ -172,6 +176,7 @@
     "type": "university",
     "description": "Sistema web de administración de infracciones viales, desarrollado como una prueba de concepto para aplicar el patrón de diseño MVC, DAO y DTO.",
     "summary": "Sistema web de administración de infracciones viales.",
+    "avatarUrl": "",
     "imageUrls": [],
     "features": [
       "Gestión de infracciones viales",
@@ -196,6 +201,7 @@
     "type": "university",
     "description": "Servidor web para la aplicación Tienda Online, utilizado para demostrar habilidades en el desarrollo de API's RESTful y la separación de capas de aplicación en un entorno web.",
     "summary": "Servidor web para Tienda Online con API RESTful y administración básica de órdenes.",
+    "avatarUrl": "",
     "imageUrls": [],
     "features": [
       "Desarrollo de API RESTful para autenticación de usuarios",
@@ -224,6 +230,7 @@
     "type": "university",
     "description": "Aplicación de realidad virtual que permite a los usuarios visitar una tienda online en un entorno virtual, conectándose con una API REST para autenticación y transferencia de modelos 3D.",
     "summary": "Tienda online en realidad virtual para reducir costos de devolución y mejorar accesibilidad.",
+    "avatarUrl": "",
     "imageUrls": [],
     "features": [
       "Experiencia de tienda online en realidad virtual",
@@ -251,6 +258,7 @@
     "type": "university",
     "description": "Aplicación de administración para un club deportivo desarrollada como prueba de concepto de un ERP comercial, utilizando el patrón de diseño MVC, DAO y DTO.",
     "summary": "Aplicación de administración para un club deportivo.",
+    "avatarUrl": "",
     "imageUrls": [],
     "features": ["Gestión de miembros y actividades del club deportivo", "Implementación del patrón MVC", "Uso de DAO y DTO para la gestión de datos"],
     "technologies": ["C#", "ASP.NET", "MS Access"],
@@ -270,6 +278,7 @@
     "type": "university",
     "description": "El juego de la vida como aplicación de escritorio en C# con modificaciones significativas en la lógica y la interfaz, incluyendo el estado inicial del tablero y estadísticas de vida/muerte.",
     "summary": "Simulación del juego de la vida con estadísticas avanzadas y configuración del estado inicial.",
+    "avatarUrl": "",
     "imageUrls": [],
     "features": [
       "Simulación del juego de la vida con interfaz gráfica",
@@ -293,6 +302,7 @@
     "type": "university",
     "description": "Aplicación de escritorio que simula el Algoritmo del Banquero de Sistemas Operativos para la planificación de recursos, evitando interbloqueos.",
     "summary": "Simulador del Algoritmo del Banquero para la planificación de recursos en sistemas operativos.",
+    "avatarUrl": "",
     "imageUrls": [],
     "features": ["Carga de vector de recursos disponibles", "Carga de matrices 'max' y 'asignado'", "Simulación del algoritmo del banquero"],
     "technologies": ["C#"],
@@ -312,6 +322,7 @@
     "type": "personal",
     "description": "Aplicación que permite a los usuarios extraer y escuchar música del juego de ritmo osu!, exportando colecciones a carpetas con archivos mp3 y embelleciendo los metadatos y carátulas para mejorar la experiencia de escucha.",
     "summary": "Aplicación para extraer y mejorar música del juego osu! para una experiencia de escucha optimizada.",
+    "avatarUrl": "",
     "imageUrls": [],
     "features": [
       "Interfaz sencilla para leer la base de datos interna del juego osu!",
@@ -340,6 +351,7 @@
     "type": "personal",
     "description": "Portfolio personal desarrollado en React, estilizado con shadcn y Tailwind CSS. Este proyecto permite exponer mis habilidades como desarrollador de software a través de una interfaz moderna y responsiva.",
     "summary": "Portfolio personal para mostrar habilidades como desarrollador de software.",
+    "avatarUrl": "",
     "imageUrls": [],
     "features": [
       "Diseño responsivo y moderno",

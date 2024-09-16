@@ -3,7 +3,9 @@ export interface Project {
   slug: string;
   type: 'professional' | 'personal' | 'university' | 'freelance';
   description: string;
+  tag: string;
   summary: string;
+  avatarUrl: string;
   imageUrls: string[];
   features: string[];
   technologies: string[];
